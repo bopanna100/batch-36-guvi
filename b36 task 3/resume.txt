@@ -1,0 +1,44 @@
+{
+    "name": "BOPANNA C A",
+    "email": "bopannaca100@gmail.com",
+    "adress": {
+        "city": "Gonikoppa",
+        "state": "Karnataka",
+        "pincode": "571249",
+        "Mobile": "9902318401"
+    },
+    "summary": "Seeking an opportunity to build  a long term career by investing best of my technical  knowledge & qualifications to help achieve organizational goals",
+    "Education": [
+        {
+            "type": "SSE",
+            "schoolname": "Antonys",
+            "passout": 2011,
+            "grade%": "65"
+        },
+        {
+            "type": "puc",
+            "college": "vidyanikethan",
+            "passout": 2013,
+            "grade": "67"
+        },
+        {
+            "type": "engineering",
+            "branch": " Computer Science & Engineering",
+            "passout": "2018",
+            "grade": "5.1cgpa"
+        }
+    ],
+    "Technicalskills": [
+        {
+            "programming Language": "Python, C++, C, Java, SQL"
+        }
+    ],
+    "GeneralInfo": [
+        {
+            "favsport": "Hockey, Cricket"
+        },
+        {
+            "hobbies": "reading books,cycling"
+        }
+    ]
+}

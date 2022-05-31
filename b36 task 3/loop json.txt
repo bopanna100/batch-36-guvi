@@ -1,0 +1,80 @@
+
+//For the given JSON iterate over all for loops (for, for in, for of, forEach)
+
+//for of 
+var json = [{
+
+    "id": "1",
+    "msg": "hi",
+    "tid": "2013-05-05 23:35",
+    "fromWho": "hello1@email.se"
+},
+{
+    "id": "2",
+    "msg": "there",
+    "tid": "2013-05-05 23:45",
+    "fromWho": "hello2@email.se"
+}];
+//undefined
+for (let value of json)
+    console.log(value);
+
+//for in
+
+var json = [{
+    "id": "1",
+    "msg": "hi",
+    "tid": "2013-05-05 23:35",
+    "fromWho": "hello1@email.se"
+},
+{
+    "id": "2",
+    "msg": "there",
+    "tid": "2013-05-05 23:45",
+    "fromWho": "hello2@email.se"
+}]; for (let index in json)
+
+    console.log(json[index]);
+
+// for each
+var json = [{
+    "id": "1",
+    "msg": "hi",
+    "tid": "2013-05-05 23:35",
+    "fromWho": "hello1@email.se"
+},
+{
+    "id": "2",
+    "msg": "there",
+    "tid": "2013-05-05 23:45",
+    "fromWho": "hello2@email.se"
+}];
+
+//for
+json.forEach((item) => {
+    console.log('ID: ' + item.id);
+    console.log('MSG: ' + item.msg);
+    console.log('TID: ' + item.tid);
+    console.log('FROMWHO: ' + item.fromWho);
+});
+
+//for
+var json = [{
+    "id": "1",
+    "msg": "hi",
+    "tid": "2013-05-05 23:35",
+    "fromWho": "hello1@email.se"
+},
+{
+    "id": "2",
+    "msg": "there",
+    "tid": "2013-05-05 23:45",
+    "fromWho": "hello2@email.se"
+}];
+
+
+for (var i = 0; i < json.length; i++) {
+    var obj = json[i];
+
+    console.log(obj.id);
+}
